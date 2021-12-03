@@ -1,0 +1,1 @@
+# yandex-shifts-weather
