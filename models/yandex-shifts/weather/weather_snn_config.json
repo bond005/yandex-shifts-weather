@@ -1,0 +1,7 @@
+{
+    "input_size": 123,
+    "ensemble_size": 20,
+    "layer_size": 512,
+    "n_layers": 18,
+    "alpha_dropout_rate": 0.0003
+}
