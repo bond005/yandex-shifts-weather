@@ -76,7 +76,7 @@ Rectified ADAM \[[L. Liu et al. 2020](https://arxiv.org/pdf/1908.03265)\] with L
 Experiments
 -----------
 
-Experiments were conducted according to data partitioning in \[[Malining et al. 2021](https://arxiv.org/pdf/2107.07455.pdf), section 3.1\]. Development and evaluation sets were not used for training and for hyper-parameter search. The quality of each modification of the method was first estimated on the development set, because all participants had access to the development set targets. After the preliminary estimation, the selected modification of the method was submitted to estimate R-AUC MSE on the evaluation set with targets concealed from participants.
+Experiments were conducted according to data partitioning in \[[Malinin et al. 2021](https://arxiv.org/pdf/2107.07455.pdf), section 3.1\]. Development and evaluation sets were not used for training and for hyper-parameter search. The quality of each modification of the method was first estimated on the development set, because all participants had access to the development set targets. After the preliminary estimation, the selected modification of the method was submitted to estimate R-AUC MSE on the evaluation set with targets concealed from participants.
 
 In comparison with the baseline, the quality of the deep learning method is better (i.e. R-AUC MSE is less) on both datasets for testing:
 
