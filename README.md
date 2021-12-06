@@ -5,7 +5,7 @@
 
 The repository contains information about my solution for the Weather Prediction track in the Yandex Shifts challenge https://research.yandex.com/shifts/weather
 
-This information includes two Jupyter-notebooks, several auxiliary Python modules, and trained models.
+This information includes two my Jupyter-notebooks (`deep_ensemble_with_uncertainty_and_spec_fe_eval.ipynb` for evaluating only, and `deep_ensemble_with_uncertainty_and_spec_fe.ipynb` for all stages of my experiment), several auxiliary Python modules (from https://github.com/yandex-research/shifts/tree/main/weather), and my pre-trained models (see the `models/yandex-shifts/weather` subdirectory).
 
 Tнe proposed solution is the best on this track (see <b><i>SNN Ens U MT Np SpecFE</i></b> method in the corresponding leaderboard).
 
