@@ -98,15 +98,20 @@ Also, the results of the deep learning method are better with all possible value
 
 The total number of all submitted methods at the evaluation phase is 73. Six selected results (top-5 results of all participants and the baseline result) are presented in the following table. The first three places are occupied by the following modifications of the proposed deep learning method:
 
-- `SNN Ens U MT Np SpecFE` is the final solution with "all-inclusive";
-- `SNN Ens U MT Np v2` excludes the feature quantization;
-- `SNN Ens U MT` excludes the feature quantization too, and classification is used instead of supervised contrastive learning as the low-level task in the hierarchical multitask learning.
+- <b><i>SNN Ens U MT Np SpecFE</i></b> is the final solution with "all-inclusive";
+- <b><i>SNN Ens U MT Np v2</i></b> excludes the feature quantization;
+- <b><i>SNN Ens U MT</i></b> excludes the feature quantization too, and classification is used instead of supervised contrastive learning as the low-level task in the hierarchical multitask learning.
 
 | Rank | Team           | Method                   | R-AUC MSE    |
 | ---- | -------------- | ------------------------ | -----------: |
-| 1    | bond005        | `SNN Ens U MT Np SpecFE` | 1.1406288012 |
-| 2    | bond005        | `SNN Ens U MT Np v2`     | 1.1415403291 |
-| 3    | bond005        | `SNN Ens U MT`           | 1.1533415892 |
-| 4    | CabbeanWeather | `Steel box v2`           | 1.1575201873 |
-| 5    | KDDI Research  | `more seed ens`          | 1.1593224114 |
-| 55   | Shifts Team    | `Shifts Challenge`       | 1.3353865316 |
+| 1    | bond005        | *SNN Ens U MT Np SpecFE* | 1.1406288012 |
+| 2    | bond005        | *SNN Ens U MT Np v2*     | 1.1415403291 |
+| 3    | bond005        | *SNN Ens U MT*           | 1.1533415892 |
+| 4    | CabbeanWeather | *Steel box v2*           | 1.1575201873 |
+| 5    | KDDI Research  | *more seed ens*          | 1.1593224114 |
+| 55   | Shifts Team    | *Shifts Challenge*       | 1.3353865316 |
+
+The time characteristics of the solution with GPU using (Nvidia V100 or GeForce 1080 Ti) are:
+
+- the average inference time per sample is 0.063 milliseconds;
+- the total training time is about a day.
