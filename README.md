@@ -111,7 +111,7 @@ The total number of all submitted methods at the evaluation phase is 73. Six sel
 | 5    | KDDI Research  | *more seed ens*          | 1.1593224114 |
 | 55   | Shifts Team    | *Shifts Challenge*       | 1.3353865316 |
 
-The time characteristics of the solution with GPU using (Nvidia V100 or GeForce 1080 Ti) are:
+The time characteristics of the solution with GPU using (Nvidia V100 or GeForce 2080 Ti) are:
 
 - the average inference time per sample is 0.063 milliseconds;
 - the total training time is about a day.
