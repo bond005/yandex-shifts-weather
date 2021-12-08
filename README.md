@@ -9,6 +9,8 @@ This information includes two my Jupyter-notebooks (`deep_ensemble_with_uncertai
 
 The proposed solution is the best on this track (see <b><i>SNN Ens U MT Np SpecFE</i></b> method in the corresponding leaderboard).
 
+You can read a detailed description of all the algorithmic techniques implemented in my solution and their motivation in [this paper](https://arxiv.org/pdf/2112.03566.pdf).
+
 Reproducibility
 ---------------
 
