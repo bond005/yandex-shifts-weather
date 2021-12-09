@@ -14,7 +14,7 @@ You can read a detailed description of all the algorithmic techniques implemente
 If you use my solution in your work, please cite my paper using the following Bibtex:
 
 ```
-@article{shifts2021,
+@article{morelayers2021,
   author    = {Bondarenko, Ivan},
   title     = {More layers! End-to-end regression and uncertainty on tabular data with deep learning},
   journal   = {arXiv preprint arXiv:2112.03566},
