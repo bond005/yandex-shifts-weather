@@ -9,7 +9,18 @@ This information includes two my Jupyter-notebooks (`deep_ensemble_with_uncertai
 
 The proposed solution is the best on this track (see <b><i>SNN Ens U MT Np SpecFE</i></b> method in the corresponding leaderboard).
 
-You can read a detailed description of all the algorithmic techniques implemented in my solution and their motivation in [this paper](https://arxiv.org/pdf/2112.03566.pdf).
+You can read a detailed description of all the algorithmic techniques implemented in my solution and their motivation in this paper: [More layers! End-to-end regression and uncertainty on tabular data with deep learning](https://arxiv.org/pdf/2112.03566.pdf).
+
+If you use my solution in your work, please cite my paper using the following Bibtex:
+
+```
+@article{shifts2021,
+  author    = {Bondarenko, Ivan},
+  title     = {More layers! End-to-end regression and uncertainty on tabular data with deep learning},
+  journal   = {arXiv preprint arXiv:2112.03566},
+  year      = {2021},
+}
+```
 
 Reproducibility
 ---------------
